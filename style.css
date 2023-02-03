@@ -1,0 +1,109 @@
+body{
+    margin:0;
+    font-family:sans-serif;
+  
+    }
+    header{
+        width:100%; 
+        display:flex;
+        position: fixed;
+        background-color:#787689;
+        font-size: 20px;
+    }
+    nav{
+        display:flex;  
+        font-size: 12px;
+        width: 90%;
+    }
+    nav ul{
+        width: 100%;
+        display:flex;
+        align-self: center;
+        list-style: none; 
+    }
+    nav li{
+        border:#252434 solid; 
+        border-color: #252434;  
+        margin: 2px; 
+        padding: 1%;
+     
+    }
+    nav li:hover{
+        background-color:#252434;
+        color:#fff;
+    }
+    nav li a{
+        text-decoration:none;
+        color: inherit;
+    }
+   
+   
+    .logo{
+        width: 90px;
+        height: auto ;
+    }
+    footer{
+        position:static;
+        bottom: 0;
+        height: 10vh;
+        background-color:#787689;
+        width: 100%;
+        padding: 2%;
+        color: #252434;
+        text-decoration-line:underline;
+
+    }
+    .contenedor{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 50% 50%;
+    }
+    .left1{
+        background-color:#f5f5dc; 
+        padding: 4%;
+        font-size: 16px;
+        color:#252434;
+        padding-bottom: 15%;
+        padding-top: 15%;
+    }
+    .right1{
+        background-color:#252434;  
+        color  :white;  
+        padding: 6%;
+        padding-bottom: 15%;
+        padding-top: 15%;
+        font-size: 16px;
+    }
+    #claro{
+       
+        color: #787689;
+    }
+    p{
+        text-align: justify;
+    }
+    #centro{
+        padding-left: 20%;
+        padding-right: 10%;
+      
+      
+    }
+    .externo{
+        display: flex;
+        position:relative;
+        justify-content: center;
+        margin-top: 2%;
+    }
+    
+    .miniatura{
+        width: 40%;
+        height: auto;
+    }
+
+    .miniatura1{
+        width: 60%;
+        height: auto;
+    }
+    .card{
+        border-top: #787689 dashed;
+        padding: 2%;
+    }
